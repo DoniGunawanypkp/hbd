@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #d63384;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+.hidden {
+  display: none;
+}
+
+#surprise img {
+  width: 200px;
+  margin: 20px auto;
+}
